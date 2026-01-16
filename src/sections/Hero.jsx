@@ -99,8 +99,8 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: FaGithub, href: "https://www.linkedin.com/in/Sahla K/" },
-                { icon: FaLinkedin, href: "#" },
+                { icon: FaGithub, href: "https://github.com/Sahlaktp01" },
+                { icon: FaLinkedin, href: "https://www.linkedin.com/in/sahla-k-50116b1bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
                 
               ].map((social, index) => (
                 <a
