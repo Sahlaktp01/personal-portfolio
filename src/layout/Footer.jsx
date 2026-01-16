@@ -1,9 +1,11 @@
-import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import {  Heart } from "lucide-react";
+import { FaLinkedin, FaGithub } from "react-icons/fa"
+
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: FaGithub, href: "https://github.com/Sahlaktp01", label: "GitHub" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/in/sahla-k-50116b1bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", label: "LinkedIn" },
+  
 ];
 
 const footerLinks = [
@@ -23,7 +25,7 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+              DEV<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
               © {currentYear} Sahla K. All rights reserved.
