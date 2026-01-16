@@ -228,7 +228,17 @@ export const Contact = () => {
           <div className="space-y-6 animate-fade-in animation-delay-400">
             <div className="glass rounded-3xl p-8">
               <h3 className="text-xl font-semibold mb-6">
-                Contact Information
+                
+   
+         <section id="contact">
+           <h2>Contact Me</h2>
+           {/* your contact content */}
+           </section>
+
+
+
+
+                
               </h3>
               <div className="space-y-4">
                 {contactInfo.map((item, i) => (
